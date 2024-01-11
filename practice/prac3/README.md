@@ -1,3 +1,5 @@
+# Общая информация
+
 Для запуска сервера локально используйте команды, находясь в рабочей папке проекта:
 - chmod +x scripts/build.sh && scripts/build.sh
 - chmod +x scripts/run.sh && scripts/run.sh
@@ -20,3 +22,17 @@
 Примеры данных проходящих все необходимые требования можно найти в папке `data_example`.
 
 Ссылка на dockerhub - https://hub.docker.com/r/boogiewoogieqq/flask_app/tags
+
+# Preview
+Главная страница:
+
+<img width="1440" alt="image" src="https://github.com/BoogieQQ/ml-portfolio/assets/86532704/50766a5d-9514-418e-8381-4daf7a9ca57f">
+
+Обученная модель:
+
+<img width="1440" alt="image" src="https://github.com/BoogieQQ/ml-portfolio/assets/86532704/2d46da6b-8339-4332-8199-a7e18a0fe06e">
+
+Результат применение модели:
+
+<img width="1440" alt="image" src="https://github.com/BoogieQQ/ml-portfolio/assets/86532704/8652f6ba-d1fa-4a42-80ea-61a0dcb35a3a">
+
