@@ -1,3 +1,5 @@
+Для понимания проекта рекомендуется открыть файл `report.pdf`.
+
 # Практическая работа 1:
 
 <img width="800" alt="image" src="https://github.com/BoogieQQ/ml-portfolio/assets/86532704/0966f0e4-7a95-4827-948f-ff070a3bd075">
