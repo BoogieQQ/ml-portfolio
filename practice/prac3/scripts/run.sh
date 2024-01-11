@@ -1,0 +1,1 @@
+docker run -it --rm -p 8000:8000 -v "/Users/nikto/PycharmProjects/prac3/artifacts:/root/prac/artifacts" flask_app

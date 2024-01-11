@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div align="center" style="padding:20px">
+    {{ wtf.quick_form(exit) }}
+</div>
+
+<div align="center">
+{{ preds.to_html()|safe }}
+</div>
+{% endblock %}

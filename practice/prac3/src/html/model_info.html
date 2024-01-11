@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Информация о модели:</h1>
+<div style="padding-left:50px">Модель: {{model_info[0]}}</div>
+<br>
+<div style="padding-left:50px">Число базовых моделей: {{model_info[1]}}</div>
+<br>
+<div style="padding-left:50px">Максимальная глубина одного дерева: {{model_info[2]}}</div>
+<br>
+<div style="padding-left:50px">Доля случайных признаков, на которых будет обучена модель: {{model_info[3]}}</div>
+<br>
+<div style="padding-left:50px">Шаг градиентного спуска: {{model_info[4]}}</div>
+<br>
+<div style="padding-left:50px">Количество объектов обучающей выборки: {{model_info[5]}}</div>
+<br>
+<div style="padding-left:50px">Размерность признакового пространства: {{model_info[6]}}</div>
+<br>
+<div style="padding-left:50px">Время обучения: {{time}}</div>
+
+<h1>Процесс обучения:</h1>
+<div id='chart' class='chart'></div>
+<br>
+<h1>Использование модели:</h1>
+<div  style="padding-left:50px">
+    {{ wtf.quick_form(load_file) }}
+</div>
+<br>
+<br>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script type='text/javascript'>
+  var graphs = {{graphJSON | safe}};
+  Plotly.plot('chart',graphs,{});
+</script>
+
+{% endblock %}
