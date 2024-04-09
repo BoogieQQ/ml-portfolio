@@ -22,3 +22,5 @@
 ![7ca2d083-8ccd-49f6-861d-ab490f98f17f (2)_page-0001 (1)](https://github.com/BoogieQQ/ml-portfolio/assets/86532704/2027e99c-a6d5-4526-a34b-e09ca1056f91)
 
 
+
+![diploma_ru (1)_page-0001](https://github.com/BoogieQQ/ml-portfolio/assets/86532704/99805c4c-35ad-440e-b22a-70df75668cde)
